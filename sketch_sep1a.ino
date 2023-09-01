@@ -2,9 +2,9 @@
 #include <WiFiNINA.h>
 int intense;
 
-char ssid[] = OnePlus;
+char ssid[] = SECRET_SSID;
 
-char pass[] = 1234567890;
+char pass[] = SECRET_PASSWORD;
 
 
 WiFiClient client;
